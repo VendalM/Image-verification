@@ -63,7 +63,7 @@ function showInfo(event) {
 	event.target.classList.add('active');
 	setTimeout(function(){location.reload()}, 2000)}
 
-/*Функция, которая задает значения матерамическому рандому*/
+/*Функция, которая задает значения математическому рандому*/
 function randomInteger(min, max) {
 	// получить случайное число от (min-0.5) до (max+0.5)
 	let rand = min - 0.5 + Math.random() * (max - min + 1);
